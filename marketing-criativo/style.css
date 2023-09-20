@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #20364d;
+    color: white;
+}
+
+header{
+    width: 100vw;
+    display: flex;
+}
+
+.logo{
+    width: 50%;
+    padding-left: 4rem;
+    padding-bottom: .5rem;
+    padding-top: 2rem;
+
+}
+
+.logo img{
+    width: 12rem;
+}
+
+nav{
+    width: 50%;
+    padding-right: 4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 400;
+    letter-spacing: .1rem;
+}
+
+main{
+    width: 100vw;
+    padding-left: 4rem;
+    padding-top: 2rem;
+}
+
+main section{
+    width: 50%;
+    float: left;
+}
+
+section h1{
+    font-size: 3.5rem;
+    padding-top: 2rem;
+    text-align: center;
+}
+section h1 span{
+    color: #ffc41c;
+    
+}
+
+section p{
+    padding-left: 0.5rem;
+    padding-right: 3.rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    line-height: 20px;
+    color: #aaa;
+    text-align: left;
+}
+
+main .fundo{
+    width: 50%;
+    float: right;
+}
+
+main .fundo img{
+    width: 100%;
+    height: 100%;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.inputs input{
+    border: none;
+    outline: none;
+
+    align-self: flex-start;
+    padding: 1rem 5rem;
+    border-radius: 5rem;
+}
+
+.btn{
+    background: #ffc41c;
+    font-weight: 700;
+    cursor: pointer;
+    opacity: 0.9;
+    margin-top: 1rem;
+}
+
+.btn:hover{
+    opacity: 1;
+    transition: initial;
+}
